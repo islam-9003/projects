@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.contanir {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .contanir {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contanir {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contanir {
+        width: 1170px;
+    }
+}
+/* ------------------------------------------------------------- */
+/* start header */
+.hader {
+    padding-top: 30px;
+}
+
+.hader .contanir {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hader .contanir .logo img {
+    height: 40px;
+}
+
+.hader .contanir ul {
+    display: flex;
+    gap: 50px;
+    color: #666;
+}
+
+/* end header */
+/* start server */
+.server {
+    margin-top: 60px;
+}
+
+.server .contanir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.server .contanir .text {
+    flex-basis: 440px;
+}
+
+.server .contanir .text h2 {
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.server .contanir .text p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #575757;
+    margin-bottom: 15px;
+}
+
+.server .contanir .text form {
+    display: flex;
+}
+
+.server .contanir .text form .email input{
+    margin-right: 10px;
+}
+
+ .server .contanir .text form input { 
+    padding: 7px 35px;
+ }
+
+.server .contanir .text form .submit input {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.server .contanir .text form .submit input:hover {
+    background-color: #16aed9;
+}
+
+.server .contanir .image img {
+    width: 500px;
+}
+
+/* end server */
+/* start about */
+.line img {
+    width: 100%;
+    margin-bottom: -5px;
+    margin-top: 150px;
+}
+
+.about {
+    background-color: #a7a0a011;
+    padding-bottom: 100px;
+}
+
+.about .contanir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about .contanir .text {
+    flex-basis: 440px;
+}
+
+.about .contanir .text h2 {
+    line-height: 1.8;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.about .contanir .text p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #575757;
+    margin-bottom: 15px;
+}
+
+.about .contanir .image img {
+    width: 450px;
+}
+
+.about .contanir .text a {
+    color: #189b3a;
+}
+
+.about .contanir .text a:hover {
+    color: #17d396;
+}
+
+.about .contanir .text .note {
+    background-color: white;
+    margin-top: 50px;
+    padding: 25px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
+}
+.about .contanir .text .note  p{
+    font-size: 13px;
+    line-height: 1.6;
+    word-spacing: 2px;
+}
+.about .contanir .text .note .avatar{
+    display: flex;
+    position: relative;
+}
+.about .contanir .text .note .avatar img {
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.about .contanir .text .note .avatar .text{
+    margin-left: 15px;
+}
+.about .contanir .text .note .avatar .text h6{
+    font-size: 12px;
+}
+.about .contanir .text .note .avatar .text p{
+    font-size: 10px;
+}
+/* end about */
+ /* start sign-up  */
+ .sign-up{
+     background-color: #26168196;
+     color: white;
+     padding: 60px 0;
+ }
+ .sign-up .contanir{
+     display: flex;
+     justify-content: space-between;
+ }
+ .sign-up .contanir .form h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+ }
+ .sign-up .contanir .form p{
+    font-size: 13px;
+    width: 400px;
+ }
+ .sign-up .contanir .sign  form .email input{
+    width: 325px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: white;
+ }
+ .sign-up .contanir .sign  form .submit input{
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 170px;
+}
+.sign-up .contanir .sign  form .submit input:hover {
+    background-color: #16aed9;
+}
+ /* end sign-up  */
+ /* start footer */
+ .footer{
+    background-color:#160a48;
+    color: white;
+    padding: 100px 0;
+ }
+ .footer .contanir{
+     display: flex;
+     justify-content: space-between;
+ }
+ li{
+     list-style: none;
+ }
+ .footer .contanir .logo img {
+     margin-bottom: 20px;
+ }
+ .footer .contanir .logo .phone i{
+    margin-right: 15px;
+    margin-bottom: 15px;
+ }
+ .footer .contanir .logo .gmail i{
+    margin-right: 15px;
+    margin-bottom: 15px;
+ }
+ .footer .contanir .link {
+     margin-top: 75px;
+ }
+ .footer .contanir .link li {
+     margin-bottom: 15px;
+ }
+ .footer .contanir .socile{
+     margin-top: 85px;
+ }
+.footer .contanir .socile i{
+    margin-left: 15px;
+ }
+ /* end footer */
